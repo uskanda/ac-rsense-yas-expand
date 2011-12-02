@@ -4,19 +4,18 @@ require "erb"
 require "optparse"
 REFE_DIR = "~/.emacs.d/ext/rsense/refm"
 REFE_NAME = "refe-1_9_2"
-SNIPPET_DIR = "/Users/uskanda/.emacs.d/development/snippets/ruby-mode"
 
 @@settings ={
-  :refe_command => "refe",
-  :output_dir => "./ruby-mode",
+  :refe_command => "refe", #Use refe2
+  :output_dir => "./snippets/ruby-mode",
   :output_classes => %w[Object Array Hash Range Enumerable String ARGF Integer Bignum Fixnum IO File Dir Mutex Module Proc Regexp Time],
   :ac_rsense => true
   }
 OptionParser.new do |option|
   option.on("-p", "--refe-command-path PATH", "Specification of Refe Path. defaults system refe."){ |p| @@settings[:refe_command_path] = p}
-  option.on("-o", "--output-dir DIR", ){ |d| @@settings[:output_dir] = d}
+  option.on("-o", "--output-dir DIR"){ |d| @@settings[:output_dir] = d}
   option.on("-c", "--output-classes DIR", "Output Classes. specify comma-separated values (e.g. '-c Array,Hash,Enumerable')"){ |d| @@settings[:output_classes] = d.split(",")}
-  option.on("-a", "--[no-]rsense", ){ |f| @@settings[:ac_rsense] = f}
+  option.on("-a", "--[no-]rsense"){ |f| @@settings[:ac_rsense] = f}
   option.parse!(ARGV)
 end
 
@@ -51,7 +50,7 @@ EOS
 
   private
   def filename
-    filename = "#{SNIPPET_DIR}/#{@key}"
+    filename = "#{settings[:output_dir]}/#{@key}"
     filename << ".#{@class}"
     filename << "_#{@args.join("_")}" if @args.length > 0
     filename << "#{"_block" if @block_args}" if @block_args
