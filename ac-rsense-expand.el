@@ -4,7 +4,6 @@
 (defvar ac-rsense-yas-working nil)
 (defvar ac-rsense-yas-class t)
 (defadvice ac-complete (before ac-rsense-yas-set-class)
-  (message (ac-selected-candidate))
   (setq ac-rsense-yas-class (popup-item-property ac-selected-candidate 'summary)))
 (ad-activate 'ac-complete)
 (defun ac-rsense-yas-expand (&optional field)
