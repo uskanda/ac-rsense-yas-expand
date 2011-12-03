@@ -1,23 +1,23 @@
 (require 'rsense)
 (require 'yasnippet)
 
-(defvar ac-rsense-yas-working nil)
-(defvar ac-rsense-yas-class t)
-(defadvice ac-complete (before ac-rsense-yas-set-class)
-  (setq ac-rsense-yas-class (popup-item-property ac-selected-candidate 'summary)))
+(defvar ac-rsense-yas-expand-working nil)
+(defvar ac-rsense-yas-expand-class t)
+(defadvice ac-complete (before ac-rsense-yas-expand-set-class)
+  (setq ac-rsense-yas-expand-class (popup-item-property ac-selected-candidate 'summary)))
 (ad-activate 'ac-complete)
-(defun ac-rsense-yas-expand (&optional field)
-   (setq ac-rsense-yas-working t)
+(defun ac-rsense-yas-expand-try (&optional field)
+   (setq ac-rsense-yas-expand-working t)
    (yas/expand field)
-   (setq ac-rsense-yas-working nil))
+   (setq ac-rsense-yas-expand-working nil))
 
 ;override Rsense's auto-complete source
-(ac-define-source rsense
+(ac-define-source rsense-yas
   '((candidates . ac-rsense-candidates)
    (prefix . "\\(?:\\.\\|::\\)\\(.*\\)")
    (requires . 0)
    (document . ac-rsense-documentation)
-   (action . ac-rsense-yas-expand)
+   (action . ac-rsense-yas-expand-try)
    (cache)))
 
 ;;override dropdown-list to replace keybind
@@ -55,4 +55,4 @@
         (and temp-buffer (kill-buffer temp-buffer)))
       selection)))
 
-(provide 'ac-rsense-expand)
+(provide 'ac-rsense-yas-expand)
