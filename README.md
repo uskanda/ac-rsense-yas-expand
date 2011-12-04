@@ -9,6 +9,7 @@ yasnippetで展開するためのEmacs設定及びsnippet群です。
 
 ## Installation
 auto-complete, Rsense, yasnippetの設定は行われていることを前提とします。
+
 1. ac-rsense-yas-expand/snippetsディレクトリ以下をすでに設定しているyasnippetのsnippetに追加してください。
             
 2. Emacsの設定ファイル(.emacs.el, .emacs.d/init.el等)に下記を追記してください。
