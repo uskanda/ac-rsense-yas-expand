@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: IO#printf(format,*arg)
+# key: .printf
+# condition: (and ac-rsense-yas-working (string= "IO" ac-rsense-yas-class))
+# --
+.printf(${1:format},${2:*arg})$0

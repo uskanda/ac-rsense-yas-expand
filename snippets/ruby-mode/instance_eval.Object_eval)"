@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Object#instance_eval(eval)")
+# key: .instance_eval
+# condition: (and ac-rsense-yas-working (string= "Object" ac-rsense-yas-class))
+# --
+.instance_eval(${1:eval)"})$0

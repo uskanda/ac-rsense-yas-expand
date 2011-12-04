@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Object#must_be_close_to(expected,delta = 0.001)
+# key: .must_be_close_to
+# condition: (and ac-rsense-yas-working (string= "Object" ac-rsense-yas-class))
+# --
+.must_be_close_to(${1:expected},${2:delta})$0

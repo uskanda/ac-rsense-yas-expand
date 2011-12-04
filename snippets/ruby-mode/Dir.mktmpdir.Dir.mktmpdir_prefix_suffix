@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Dir.mktmpdir#Dir.mktmpdir(prefix_suffix = nil)
+# key: .Dir.mktmpdir
+# condition: (and ac-rsense-yas-working (string= "Dir.mktmpdir" ac-rsense-yas-class))
+# --
+.Dir.mktmpdir(${1:prefix_suffix})$0

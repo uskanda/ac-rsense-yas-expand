@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Enumerable#reverse_each{|element}| ...}
+# key: .reverse_each
+# condition: (and ac-rsense-yas-working (string= "Enumerable" ac-rsense-yas-class))
+# --
+.reverse_each(){|${1:element}| $2}$0

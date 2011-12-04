@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Time.parse#Time.parse(date)
+# key: .Time.parse
+# condition: (and ac-rsense-yas-working (string= "Time.parse" ac-rsense-yas-class))
+# --
+.Time.parse(${1:date})$0

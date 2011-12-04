@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: IO#codepoints{|c}| ...}
+# key: .codepoints
+# condition: (and ac-rsense-yas-working (string= "IO" ac-rsense-yas-class))
+# --
+.codepoints(){|${1:c}| $2}$0

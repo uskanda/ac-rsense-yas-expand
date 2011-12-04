@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Regexp.escape#Regexp.escape(string)
+# key: .Regexp.escape
+# condition: (and ac-rsense-yas-working (string= "Regexp.escape" ac-rsense-yas-class))
+# --
+.Regexp.escape(${1:string})$0

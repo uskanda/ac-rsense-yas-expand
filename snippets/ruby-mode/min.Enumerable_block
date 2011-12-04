@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Enumerable#min{|a,b}| ...}
+# key: .min
+# condition: (and ac-rsense-yas-working (string= "Enumerable" ac-rsense-yas-class))
+# --
+.min(){|${1:a},${2:b}| $3}$0

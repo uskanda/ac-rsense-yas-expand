@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.expand_path#File.expand_path(path,default_dir = '.')
+# key: .File.expand_path
+# condition: (and ac-rsense-yas-working (string= "File.expand_path" ac-rsense-yas-class))
+# --
+.File.expand_path(${1:path},${2:default_dir})$0

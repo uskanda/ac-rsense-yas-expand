@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Hash#merge(other){|key,self_val,other_val}| ...}
+# key: .merge
+# condition: (and ac-rsense-yas-working (string= "Hash" ac-rsense-yas-class))
+# --
+.merge(${1:other}){|${2:key},${3:self_val},${4:other_val}| $5}$0

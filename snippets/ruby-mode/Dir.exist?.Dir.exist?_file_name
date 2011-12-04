@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Dir.exist?#Dir.exist?(file_name)
+# key: .Dir.exist?
+# condition: (and ac-rsense-yas-working (string= "Dir.exist?" ac-rsense-yas-class))
+# --
+.Dir.exist?(${1:file_name})$0

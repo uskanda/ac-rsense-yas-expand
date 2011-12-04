@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.new#File.new(path,mode = "r",perm = 0666){|file}| ...}
+# key: .File.new
+# condition: (and ac-rsense-yas-working (string= "File.new" ac-rsense-yas-class))
+# --
+.File.new(${1:path},${2:mode},${3:perm}){|${4:file}| $5}$0

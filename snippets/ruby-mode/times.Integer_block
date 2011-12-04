@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Integer#times{|n}| ...}
+# key: .times
+# condition: (and ac-rsense-yas-working (string= "Integer" ac-rsense-yas-class))
+# --
+.times(){|${1:n}| $2}$0

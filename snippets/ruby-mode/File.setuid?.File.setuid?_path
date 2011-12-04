@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.setuid?#File.setuid?(path)
+# key: .File.setuid?
+# condition: (and ac-rsense-yas-working (string= "File.setuid?" ac-rsense-yas-class))
+# --
+.File.setuid?(${1:path})$0

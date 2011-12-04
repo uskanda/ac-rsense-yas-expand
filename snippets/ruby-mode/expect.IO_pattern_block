@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: IO#expect(pattern){|array}| ...}
+# key: .expect
+# condition: (and ac-rsense-yas-working (string= "IO" ac-rsense-yas-class))
+# --
+.expect(${1:pattern}){|${2:array}| $3}$0

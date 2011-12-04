@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: IO#write_nonblock(string)
+# key: .write_nonblock
+# condition: (and ac-rsense-yas-working (string= "IO" ac-rsense-yas-class))
+# --
+.write_nonblock(${1:string})$0

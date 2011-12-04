@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.readable?#File.readable?(path)
+# key: .File.readable?
+# condition: (and ac-rsense-yas-working (string= "File.readable?" ac-rsense-yas-class))
+# --
+.File.readable?(${1:path})$0

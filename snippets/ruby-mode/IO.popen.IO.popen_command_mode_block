@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: IO.popen#IO.popen(command,mode = "r"){|io}| ...}
+# key: .IO.popen
+# condition: (and ac-rsense-yas-working (string= "IO.popen" ac-rsense-yas-class))
+# --
+.IO.popen(${1:command},${2:mode}){|${3:io}| $4}$0

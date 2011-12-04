@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: ARGF.readlines#ARGF.readlines
+# key: .ARGF.readlines
+# condition: (and ac-rsense-yas-working (string= "ARGF.readlines" ac-rsense-yas-class))
+# --
+.ARGF.readlines()$0

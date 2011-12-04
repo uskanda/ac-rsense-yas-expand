@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.rename#File.rename(from,to)
+# key: .File.rename
+# condition: (and ac-rsense-yas-working (string= "File.rename" ac-rsense-yas-class))
+# --
+.File.rename(${1:from},${2:to})$0

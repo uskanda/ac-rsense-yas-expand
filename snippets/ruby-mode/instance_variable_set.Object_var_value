@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Object#instance_variable_set(var,value)
+# key: .instance_variable_set
+# condition: (and ac-rsense-yas-working (string= "Object" ac-rsense-yas-class))
+# --
+.instance_variable_set(${1:var},${2:value})$0

@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.readlink#File.readlink(path)
+# key: .File.readlink
+# condition: (and ac-rsense-yas-working (string= "File.readlink" ac-rsense-yas-class))
+# --
+.File.readlink(${1:path})$0

@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Object#pretty_print(pp)
+# key: .pretty_print
+# condition: (and ac-rsense-yas-working (string= "Object" ac-rsense-yas-class))
+# --
+.pretty_print(${1:pp})$0

@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.lstat#File.lstat(filename)
+# key: .File.lstat
+# condition: (and ac-rsense-yas-working (string= "File.lstat" ac-rsense-yas-class))
+# --
+.File.lstat(${1:filename})$0

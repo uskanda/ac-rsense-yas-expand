@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Module#alias_method(new,original)
+# key: .alias_method
+# condition: (and ac-rsense-yas-working (string= "Module" ac-rsense-yas-class))
+# --
+.alias_method(${1:new},${2:original})$0

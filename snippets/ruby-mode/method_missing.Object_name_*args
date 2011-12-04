@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Object#method_missing(name,*args)
+# key: .method_missing
+# condition: (and ac-rsense-yas-working (string= "Object" ac-rsense-yas-class))
+# --
+.method_missing(${1:name},${2:*args})$0

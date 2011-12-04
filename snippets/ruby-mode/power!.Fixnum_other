@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Fixnum#power!(other)
+# key: .power!
+# condition: (and ac-rsense-yas-working (string= "Fixnum" ac-rsense-yas-class))
+# --
+.power!(${1:other})$0

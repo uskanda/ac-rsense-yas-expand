@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Array.try_convert#Array.try_convert(obj)
+# key: .Array.try_convert
+# condition: (and ac-rsense-yas-working (string= "Array.try_convert" ac-rsense-yas-class))
+# --
+.Array.try_convert(${1:obj})$0

@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Module#include(*mod)
+# key: .include
+# condition: (and ac-rsense-yas-working (string= "Module" ac-rsense-yas-class))
+# --
+.include(${1:*mod})$0

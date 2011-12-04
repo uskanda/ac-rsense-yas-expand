@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Regexp.json_create#Regexp.json_create(hash)
+# key: .Regexp.json_create
+# condition: (and ac-rsense-yas-working (string= "Regexp.json_create" ac-rsense-yas-class))
+# --
+.Regexp.json_create(${1:hash})$0

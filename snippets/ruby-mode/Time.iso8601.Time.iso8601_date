@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Time.iso8601#Time.iso8601(date)
+# key: .Time.iso8601
+# condition: (and ac-rsense-yas-working (string= "Time.iso8601" ac-rsense-yas-class))
+# --
+.Time.iso8601(${1:date})$0

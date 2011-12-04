@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Array#pack(template)
+# key: .pack
+# condition: (and ac-rsense-yas-working (string= "Array" ac-rsense-yas-class))
+# --
+.pack(${1:template})$0

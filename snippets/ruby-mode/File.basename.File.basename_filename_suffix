@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.basename#File.basename(filename,suffix = "")
+# key: .File.basename
+# condition: (and ac-rsense-yas-working (string= "File.basename" ac-rsense-yas-class))
+# --
+.File.basename(${1:filename},${2:suffix})$0

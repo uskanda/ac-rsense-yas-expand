@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.grpowned?#File.grpowned?(path)
+# key: .File.grpowned?
+# condition: (and ac-rsense-yas-working (string= "File.grpowned?" ac-rsense-yas-class))
+# --
+.File.grpowned?(${1:path})$0

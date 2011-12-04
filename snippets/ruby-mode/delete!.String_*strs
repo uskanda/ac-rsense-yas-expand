@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: String#delete!(*strs)
+# key: .delete!
+# condition: (and ac-rsense-yas-working (string= "String" ac-rsense-yas-class))
+# --
+.delete!(${1:*strs})$0

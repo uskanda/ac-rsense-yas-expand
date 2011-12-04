@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: String#index(pattern)
+# key: .index
+# condition: (and ac-rsense-yas-working (string= "String" ac-rsense-yas-class))
+# --
+.index(${1:pattern})$0

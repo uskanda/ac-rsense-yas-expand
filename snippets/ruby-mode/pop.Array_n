@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Array#pop(n = 1)
+# key: .pop
+# condition: (and ac-rsense-yas-working (string= "Array" ac-rsense-yas-class))
+# --
+.pop(${1:n})$0

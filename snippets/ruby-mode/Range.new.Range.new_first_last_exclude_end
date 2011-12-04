@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Range.new#Range.new(first,last,exclude_end = false)
+# key: .Range.new
+# condition: (and ac-rsense-yas-working (string= "Range.new" ac-rsense-yas-class))
+# --
+.Range.new(${1:first},${2:last},${3:exclude_end})$0

@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Time.json_create#Time.json_create(hash)
+# key: .Time.json_create
+# condition: (and ac-rsense-yas-working (string= "Time.json_create" ac-rsense-yas-class))
+# --
+.Time.json_create(${1:hash})$0

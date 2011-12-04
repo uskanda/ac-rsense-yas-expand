@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Time.gm#Time.gm(year,mon = 1,day = 1,hour = 0)
+# key: .Time.gm
+# condition: (and ac-rsense-yas-working (string= "Time.gm" ac-rsense-yas-class))
+# --
+.Time.gm(${1:year},${2:mon},${3:day},${4:hour})$0

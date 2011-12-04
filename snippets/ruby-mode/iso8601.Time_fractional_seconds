@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Time#iso8601(fractional_seconds = 0)
+# key: .iso8601
+# condition: (and ac-rsense-yas-working (string= "Time" ac-rsense-yas-class))
+# --
+.iso8601(${1:fractional_seconds})$0

@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.symlink?#File.symlink?(path)
+# key: .File.symlink?
+# condition: (and ac-rsense-yas-working (string= "File.symlink?" ac-rsense-yas-class))
+# --
+.File.symlink?(${1:path})$0

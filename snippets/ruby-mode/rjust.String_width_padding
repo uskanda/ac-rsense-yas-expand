@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: String#rjust(width,padding = ' ')
+# key: .rjust
+# condition: (and ac-rsense-yas-working (string= "String" ac-rsense-yas-class))
+# --
+.rjust(${1:width},${2:padding})$0

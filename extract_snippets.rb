@@ -1,18 +1,17 @@
 # -*- coding: utf-8 -*-
-#TODO: remove local settings
+#TODO: Refactor Snippet Class
 require "erb"
 require "optparse"
-REFE_DIR = "~/.emacs.d/ext/rsense/refm"
-REFE_NAME = "refe-1_9_2"
 
 @@settings ={
-  :refe_command => "refe", #Use refe2
+  :refe_command => "refe", #Please Use refe2
   :output_dir => "./snippets/ruby-mode",
   :output_classes => %w[Object Array Hash Range Enumerable String ARGF Integer Bignum Fixnum IO File Dir Mutex Module Proc Regexp Time],
   :ac_rsense => true
   }
+
 OptionParser.new do |option|
-  option.on("-p", "--refe-command-path PATH", "Specification of Refe Path. defaults system refe."){ |p| @@settings[:refe_command_path] = p}
+  option.on("-p", "--refe-command-path PATH", "Specification of Refe Path. defaults system refe."){ |p| @@settings[:refe_command] = p}
   option.on("-o", "--output-dir DIR"){ |d| @@settings[:output_dir] = d}
   option.on("-c", "--output-classes DIR", "Output Classes. specify comma-separated values (e.g. '-c Array,Hash,Enumerable')"){ |d| @@settings[:output_classes] = d.split(",")}
   option.on("-a", "--[no-]rsense"){ |f| @@settings[:ac_rsense] = f}
@@ -43,6 +42,7 @@ EOS
   end
 
   def make
+    puts "[#{@class}] make a snippet '#{@name}'..."
     File.open(filename,'w') do |f|
       f.print ERB.new(FORMAT,nil,"%").result(binding).chomp
     end
@@ -50,7 +50,7 @@ EOS
 
   private
   def filename
-    filename = "#{settings[:output_dir]}/#{@key}"
+    filename = "#{@@settings[:output_dir]}/#{@key}"
     filename << ".#{@class}"
     filename << "_#{@args.join("_")}" if @args.length > 0
     filename << "#{"_block" if @block_args}" if @block_args
@@ -134,7 +134,7 @@ class MethodInfo
     @expression = expression
     @name = expression.sub(/.+#/,"")
     @class_name = expression.sub(/#.+/,"")
-    @doc = `#{REFE_DIR}/#{REFE_NAME} "#{@expression}"`
+    @doc = `#{@@settings[:refe_command]} "#{@expression}"`
     @arg_formats = []
     @doc.each_line do |line|
       next unless line =~ /^\s*--- (.*) ->.+/
@@ -145,8 +145,13 @@ class MethodInfo
 end
 
 @@settings[:output_classes].each do |c|
-  result = `#{REFE_DIR}/#{REFE_NAME} "#{c}#"`
-  result << `#{REFE_DIR}/#{REFE_NAME} "#{c}."` unless c == "Object"
+  puts "[#{c}] lookup instance methods..."
+  result = `#{@@settings[:refe_command]} "#{c}#"`
+  unless c == "Object"
+    puts "[#{c}] lookup class methods..."  
+    result << `#{@@settings[:refe_command]} "#{c}."`
+  end
+  puts "[#{c}] start generating snippets..."  
   methods = result.split
   methods.each do |m|
     next if m =~ /.+#[^\w].*/

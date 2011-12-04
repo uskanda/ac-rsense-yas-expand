@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Regexp.last_match#Regexp.last_match(nth)
+# key: .Regexp.last_match
+# condition: (and ac-rsense-yas-working (string= "Regexp.last_match" ac-rsense-yas-class))
+# --
+.Regexp.last_match(${1:nth})$0

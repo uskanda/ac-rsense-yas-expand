@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.owned?#File.owned?(path)
+# key: .File.owned?
+# condition: (and ac-rsense-yas-working (string= "File.owned?" ac-rsense-yas-class))
+# --
+.File.owned?(${1:path})$0

@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: String#gsub!(pattern,hash)
+# key: .gsub!
+# condition: (and ac-rsense-yas-working (string= "String" ac-rsense-yas-class))
+# --
+.gsub!(${1:pattern},${2:hash})$0

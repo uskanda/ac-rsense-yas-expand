@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.dirname#File.dirname(filename)
+# key: .File.dirname
+# condition: (and ac-rsense-yas-working (string= "File.dirname" ac-rsense-yas-class))
+# --
+.File.dirname(${1:filename})$0

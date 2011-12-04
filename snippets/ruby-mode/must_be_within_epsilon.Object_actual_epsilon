@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Object#must_be_within_epsilon(actual,epsilon = 0.001)
+# key: .must_be_within_epsilon
+# condition: (and ac-rsense-yas-working (string= "Object" ac-rsense-yas-class))
+# --
+.must_be_within_epsilon(${1:actual},${2:epsilon})$0

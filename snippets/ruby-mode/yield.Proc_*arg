@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Proc#yield(*arg)
+# key: .yield
+# condition: (and ac-rsense-yas-working (string= "Proc" ac-rsense-yas-class))
+# --
+.yield(${1:*arg})$0

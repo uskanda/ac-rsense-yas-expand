@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: String#scanf(format)
+# key: .scanf
+# condition: (and ac-rsense-yas-working (string= "String" ac-rsense-yas-class))
+# --
+.scanf(${1:format})$0

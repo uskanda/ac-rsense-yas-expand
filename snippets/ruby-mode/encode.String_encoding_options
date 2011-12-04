@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: String#encode(encoding,options = nil)
+# key: .encode
+# condition: (and ac-rsense-yas-working (string= "String" ac-rsense-yas-class))
+# --
+.encode(${1:encoding},${2:options})$0

@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Time.httpdate#Time.httpdate(date)
+# key: .Time.httpdate
+# condition: (and ac-rsense-yas-working (string= "Time.httpdate" ac-rsense-yas-class))
+# --
+.Time.httpdate(${1:date})$0

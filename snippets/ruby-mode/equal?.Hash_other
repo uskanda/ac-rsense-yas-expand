@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Hash#equal?(other)
+# key: .equal?
+# condition: (and ac-rsense-yas-working (string= "Hash" ac-rsense-yas-class))
+# --
+.equal?(${1:other})$0

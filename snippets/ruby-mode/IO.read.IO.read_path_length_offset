@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: IO.read#IO.read(path,length = nil,offset = 0)
+# key: .IO.read
+# condition: (and ac-rsense-yas-working (string= "IO.read" ac-rsense-yas-class))
+# --
+.IO.read(${1:path},${2:length},${3:offset})$0

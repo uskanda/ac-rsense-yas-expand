@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.realpath#File.realpath(pathname)
+# key: .File.realpath
+# condition: (and ac-rsense-yas-working (string= "File.realpath" ac-rsense-yas-class))
+# --
+.File.realpath(${1:pathname})$0

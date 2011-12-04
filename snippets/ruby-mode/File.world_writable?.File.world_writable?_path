@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.world_writable?#File.world_writable?(path)
+# key: .File.world_writable?
+# condition: (and ac-rsense-yas-working (string= "File.world_writable?" ac-rsense-yas-class))
+# --
+.File.world_writable?(${1:path})$0

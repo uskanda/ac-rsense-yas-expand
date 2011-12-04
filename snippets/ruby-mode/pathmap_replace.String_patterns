@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: String#pathmap_replace(patterns)
+# key: .pathmap_replace
+# condition: (and ac-rsense-yas-working (string= "String" ac-rsense-yas-class))
+# --
+.pathmap_replace(${1:patterns})$0

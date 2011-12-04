@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Range#cover?(obj)
+# key: .cover?
+# condition: (and ac-rsense-yas-working (string= "Range" ac-rsense-yas-class))
+# --
+.cover?(${1:obj})$0

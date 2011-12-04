@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Array#delete_if{|x}| ...}
+# key: .delete_if
+# condition: (and ac-rsense-yas-working (string= "Array" ac-rsense-yas-class))
+# --
+.delete_if(){|${1:x}| $2}$0

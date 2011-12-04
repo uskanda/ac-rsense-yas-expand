@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Integer.from_prime_division#Integer.from_prime_division(pd)
+# key: .Integer.from_prime_division
+# condition: (and ac-rsense-yas-working (string= "Integer.from_prime_division" ac-rsense-yas-class))
+# --
+.Integer.from_prime_division(${1:pd})$0

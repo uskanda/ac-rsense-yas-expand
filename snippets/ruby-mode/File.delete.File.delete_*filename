@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.delete#File.delete(*filename)
+# key: .File.delete
+# condition: (and ac-rsense-yas-working (string= "File.delete" ac-rsense-yas-class))
+# --
+.File.delete(${1:*filename})$0

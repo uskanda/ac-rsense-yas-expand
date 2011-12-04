@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Enumerable#inject(init,sym)
+# key: .inject
+# condition: (and ac-rsense-yas-working (string= "Enumerable" ac-rsense-yas-class))
+# --
+.inject(${1:init},${2:sym})$0

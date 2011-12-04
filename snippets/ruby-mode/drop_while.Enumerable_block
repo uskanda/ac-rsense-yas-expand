@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Enumerable#drop_while{|element}| ...}
+# key: .drop_while
+# condition: (and ac-rsense-yas-working (string= "Enumerable" ac-rsense-yas-class))
+# --
+.drop_while(){|${1:element}| $2}$0

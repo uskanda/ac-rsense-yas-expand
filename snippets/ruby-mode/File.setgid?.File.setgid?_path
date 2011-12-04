@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.setgid?#File.setgid?(path)
+# key: .File.setgid?
+# condition: (and ac-rsense-yas-working (string= "File.setgid?" ac-rsense-yas-class))
+# --
+.File.setgid?(${1:path})$0

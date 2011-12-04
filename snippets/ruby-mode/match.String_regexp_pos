@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: String#match(regexp,pos = 0)
+# key: .match
+# condition: (and ac-rsense-yas-working (string= "String" ac-rsense-yas-class))
+# --
+.match(${1:regexp},${2:pos})$0

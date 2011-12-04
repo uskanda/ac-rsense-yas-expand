@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.identical?#File.identical?(filename1,filename2)
+# key: .File.identical?
+# condition: (and ac-rsense-yas-working (string= "File.identical?" ac-rsense-yas-class))
+# --
+.File.identical?(${1:filename1},${2:filename2})$0

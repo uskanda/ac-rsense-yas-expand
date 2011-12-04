@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: ARGF.each#ARGF.each
+# key: .ARGF.each
+# condition: (and ac-rsense-yas-working (string= "ARGF.each" ac-rsense-yas-class))
+# --
+.ARGF.each()$0

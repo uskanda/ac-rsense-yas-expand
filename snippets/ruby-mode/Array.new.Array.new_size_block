@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Array.new#Array.new(size){|index}| ...}
+# key: .Array.new
+# condition: (and ac-rsense-yas-working (string= "Array.new" ac-rsense-yas-class))
+# --
+.Array.new(${1:size}){|${2:index}| $3}$0

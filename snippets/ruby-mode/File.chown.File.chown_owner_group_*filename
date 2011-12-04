@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.chown#File.chown(owner,group,*filename)
+# key: .File.chown
+# condition: (and ac-rsense-yas-working (string= "File.chown" ac-rsense-yas-class))
+# --
+.File.chown(${1:owner},${2:group},${3:*filename})$0

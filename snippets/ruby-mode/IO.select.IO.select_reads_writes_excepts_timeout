@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: IO.select#IO.select(reads,writes = [],excepts = [],timeout = nil)
+# key: .IO.select
+# condition: (and ac-rsense-yas-working (string= "IO.select" ac-rsense-yas-class))
+# --
+.IO.select(${1:reads},${2:writes},${3:excepts},${4:timeout})$0

@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Regexp#to_json(*args)
+# key: .to_json
+# condition: (and ac-rsense-yas-working (string= "Regexp" ac-rsense-yas-class))
+# --
+.to_json(${1:*args})$0

@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File#chmod(mode)
+# key: .chmod
+# condition: (and ac-rsense-yas-working (string= "File" ac-rsense-yas-class))
+# --
+.chmod(${1:mode})$0

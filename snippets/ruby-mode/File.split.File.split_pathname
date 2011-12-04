@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.split#File.split(pathname)
+# key: .File.split
+# condition: (and ac-rsense-yas-working (string= "File.split" ac-rsense-yas-class))
+# --
+.File.split(${1:pathname})$0

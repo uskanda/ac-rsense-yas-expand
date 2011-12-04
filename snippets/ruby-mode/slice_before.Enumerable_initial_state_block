@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Enumerable#slice_before(initial_state){|elt,state}| ...}
+# key: .slice_before
+# condition: (and ac-rsense-yas-working (string= "Enumerable" ac-rsense-yas-class))
+# --
+.slice_before(${1:initial_state}){|${2:elt},${3:state}| $4}$0

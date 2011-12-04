@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Hash#delete_if{|key,value}| ...}
+# key: .delete_if
+# condition: (and ac-rsense-yas-working (string= "Hash" ac-rsense-yas-class))
+# --
+.delete_if(){|${1:key},${2:value}| $3}$0

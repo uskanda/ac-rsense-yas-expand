@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Dir.[]#Dir.[](pattern,flags = 0){|file}| ...}
+# key: .Dir.[]
+# condition: (and ac-rsense-yas-working (string= "Dir.[]" ac-rsense-yas-class))
+# --
+.Dir.[](${1:pattern},${2:flags}){|${3:file}| $4}$0

@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: String.new#String.new(string = "")
+# key: .String.new
+# condition: (and ac-rsense-yas-working (string= "String.new" ac-rsense-yas-class))
+# --
+.String.new(${1:string})$0

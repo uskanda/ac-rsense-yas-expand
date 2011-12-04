@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: String#each_line{|line}| ...}
+# key: .each_line
+# condition: (and ac-rsense-yas-working (string= "String" ac-rsense-yas-class))
+# --
+.each_line(){|${1:line}| $2}$0

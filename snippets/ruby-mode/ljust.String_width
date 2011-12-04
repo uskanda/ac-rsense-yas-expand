@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: String#ljust(width)
+# key: .ljust
+# condition: (and ac-rsense-yas-working (string= "String" ac-rsense-yas-class))
+# --
+.ljust(${1:width})$0

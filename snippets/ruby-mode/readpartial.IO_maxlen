@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: IO#readpartial(maxlen)
+# key: .readpartial
+# condition: (and ac-rsense-yas-working (string= "IO" ac-rsense-yas-class))
+# --
+.readpartial(${1:maxlen})$0

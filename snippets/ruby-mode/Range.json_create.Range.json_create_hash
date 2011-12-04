@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Range.json_create#Range.json_create(hash)
+# key: .Range.json_create
+# condition: (and ac-rsense-yas-working (string= "Range.json_create" ac-rsense-yas-class))
+# --
+.Range.json_create(${1:hash})$0

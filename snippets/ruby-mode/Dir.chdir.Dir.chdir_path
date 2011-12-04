@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Dir.chdir#Dir.chdir(path)
+# key: .Dir.chdir
+# condition: (and ac-rsense-yas-working (string= "Dir.chdir" ac-rsense-yas-class))
+# --
+.Dir.chdir(${1:path})$0

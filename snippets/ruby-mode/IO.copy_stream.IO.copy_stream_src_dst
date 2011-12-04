@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: IO.copy_stream#IO.copy_stream(src,dst)
+# key: .IO.copy_stream
+# condition: (and ac-rsense-yas-working (string= "IO.copy_stream" ac-rsense-yas-class))
+# --
+.IO.copy_stream(${1:src},${2:dst})$0

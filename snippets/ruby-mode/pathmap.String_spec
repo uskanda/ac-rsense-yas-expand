@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: String#pathmap(spec = nil)
+# key: .pathmap
+# condition: (and ac-rsense-yas-working (string= "String" ac-rsense-yas-class))
+# --
+.pathmap(${1:spec})$0

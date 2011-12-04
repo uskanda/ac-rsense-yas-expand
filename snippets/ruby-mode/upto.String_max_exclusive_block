@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: String#upto(max,exclusive = false){|s}| ...}
+# key: .upto
+# condition: (and ac-rsense-yas-working (string= "String" ac-rsense-yas-class))
+# --
+.upto(${1:max},${2:exclusive}){|${3:s}| $4}$0

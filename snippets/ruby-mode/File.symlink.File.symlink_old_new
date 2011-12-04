@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.symlink#File.symlink(old,new)
+# key: .File.symlink
+# condition: (and ac-rsense-yas-working (string= "File.symlink" ac-rsense-yas-class))
+# --
+.File.symlink(${1:old},${2:new})$0

@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Hash.[]#Hash.[](*key_and_value)
+# key: .Hash.[]
+# condition: (and ac-rsense-yas-working (string= "Hash.[]" ac-rsense-yas-class))
+# --
+.Hash.[](${1:*key_and_value})$0

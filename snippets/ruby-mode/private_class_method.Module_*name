@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Module#private_class_method(*name)
+# key: .private_class_method
+# condition: (and ac-rsense-yas-working (string= "Module" ac-rsense-yas-class))
+# --
+.private_class_method(${1:*name})$0

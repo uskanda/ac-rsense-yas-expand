@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.ctime#File.ctime(filename)
+# key: .File.ctime
+# condition: (and ac-rsense-yas-working (string= "File.ctime" ac-rsense-yas-class))
+# --
+.File.ctime(${1:filename})$0

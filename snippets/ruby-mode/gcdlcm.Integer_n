@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Integer#gcdlcm(n)
+# key: .gcdlcm
+# condition: (and ac-rsense-yas-working (string= "Integer" ac-rsense-yas-class))
+# --
+.gcdlcm(${1:n})$0

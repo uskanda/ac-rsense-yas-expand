@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Dir.chroot#Dir.chroot(path)
+# key: .Dir.chroot
+# condition: (and ac-rsense-yas-working (string= "Dir.chroot" ac-rsense-yas-class))
+# --
+.Dir.chroot(${1:path})$0

@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.writable_real?#File.writable_real?(path)
+# key: .File.writable_real?
+# condition: (and ac-rsense-yas-working (string= "File.writable_real?" ac-rsense-yas-class))
+# --
+.File.writable_real?(${1:path})$0

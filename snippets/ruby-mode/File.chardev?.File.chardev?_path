@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.chardev?#File.chardev?(path)
+# key: .File.chardev?
+# condition: (and ac-rsense-yas-working (string= "File.chardev?" ac-rsense-yas-class))
+# --
+.File.chardev?(${1:path})$0

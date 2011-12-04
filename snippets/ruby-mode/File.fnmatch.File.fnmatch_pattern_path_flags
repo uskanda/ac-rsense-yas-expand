@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: File.fnmatch#File.fnmatch(pattern,path,flags = 0)
+# key: .File.fnmatch
+# condition: (and ac-rsense-yas-working (string= "File.fnmatch" ac-rsense-yas-class))
+# --
+.File.fnmatch(${1:pattern},${2:path},${3:flags})$0

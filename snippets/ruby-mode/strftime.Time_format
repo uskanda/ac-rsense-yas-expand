@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Time#strftime(format)
+# key: .strftime
+# condition: (and ac-rsense-yas-working (string= "Time" ac-rsense-yas-class))
+# --
+.strftime(${1:format})$0

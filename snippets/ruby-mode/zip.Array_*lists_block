@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Array#zip(*lists){|v1,v2,...}| ...}
+# key: .zip
+# condition: (and ac-rsense-yas-working (string= "Array" ac-rsense-yas-class))
+# --
+.zip(${1:*lists}){|${2:v1},${3:v2},${4:...}| $5}$0

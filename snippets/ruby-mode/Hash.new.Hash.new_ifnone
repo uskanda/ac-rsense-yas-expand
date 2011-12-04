@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Hash.new#Hash.new(ifnone = nil)
+# key: .Hash.new
+# condition: (and ac-rsense-yas-working (string= "Hash.new" ac-rsense-yas-class))
+# --
+.Hash.new(${1:ifnone})$0

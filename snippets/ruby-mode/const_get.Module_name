@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: Module#const_get(name)
+# key: .const_get
+# condition: (and ac-rsense-yas-working (string= "Module" ac-rsense-yas-class))
+# --
+.const_get(${1:name})$0

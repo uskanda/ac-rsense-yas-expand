@@ -1,0 +1,6 @@
+# contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
+# name: ARGF.chars#ARGF.chars{|c}| ...}
+# key: .ARGF.chars
+# condition: (and ac-rsense-yas-working (string= "ARGF.chars" ac-rsense-yas-class))
+# --
+.ARGF.chars(){|${1:c}| $2}$0
