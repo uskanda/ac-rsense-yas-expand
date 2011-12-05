@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: IO.readlines#IO.readlines(path,rs = $/)
 # key: .IO.readlines
-# condition: (and ac-rsense-yas-working (string= "IO.readlines" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "IO.readlines" ac-rsense-yas-expand-class))
 # --
 .IO.readlines(${1:path},${2:rs})$0

@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: Object#initialize(*args,&block)
 # key: .initialize
-# condition: (and ac-rsense-yas-working (string= "Object" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "Object" ac-rsense-yas-expand-class))
 # --
 .initialize(${1:*args},${2:&block})$0

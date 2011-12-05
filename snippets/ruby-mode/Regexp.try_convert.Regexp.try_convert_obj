@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: Regexp.try_convert#Regexp.try_convert(obj)
 # key: .Regexp.try_convert
-# condition: (and ac-rsense-yas-working (string= "Regexp.try_convert" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "Regexp.try_convert" ac-rsense-yas-expand-class))
 # --
 .Regexp.try_convert(${1:obj})$0

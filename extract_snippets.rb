@@ -25,7 +25,7 @@ class Snippet
 # name: <%= @name %>
 # key: .<%= @key %>
 % if @@settings[:ac_rsense]
-# condition: (and ac-rsense-yas-working (string= "<%= @class %>" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "<%= @class %>" ac-rsense-yas-expand-class))
 % end
 # --
 .<% counter = 0 %><%= @key %><%= "(" + @args.map{|a| counter += 1;"${" + counter.to_s + ":" + a.name + "}"}.join(",") +")" if @args %><%= "{|" + @block_args.map{|a| counter+=1; "${" + counter.to_s + ":" + a + "}"}.join(",") + "| $" + (counter+1).to_s + "}" if @block_args%>$0

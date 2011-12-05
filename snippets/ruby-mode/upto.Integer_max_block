@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: Integer#upto(max){|n}| ...}
 # key: .upto
-# condition: (and ac-rsense-yas-working (string= "Integer" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "Integer" ac-rsense-yas-expand-class))
 # --
 .upto(${1:max}){|${2:n}| $3}$0

@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: Object#singleton_method_undefined(name)
 # key: .singleton_method_undefined
-# condition: (and ac-rsense-yas-working (string= "Object" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "Object" ac-rsense-yas-expand-class))
 # --
 .singleton_method_undefined(${1:name})$0

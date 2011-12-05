@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: Module#protected_method_defined?(name)
 # key: .protected_method_defined?
-# condition: (and ac-rsense-yas-working (string= "Module" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "Module" ac-rsense-yas-expand-class))
 # --
 .protected_method_defined?(${1:name})$0

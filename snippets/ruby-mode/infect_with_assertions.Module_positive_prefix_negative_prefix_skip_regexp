@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: Module#infect_with_assertions(positive_prefix,negative_prefix,skip_regexp)
 # key: .infect_with_assertions
-# condition: (and ac-rsense-yas-working (string= "Module" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "Module" ac-rsense-yas-expand-class))
 # --
 .infect_with_assertions(${1:positive_prefix},${2:negative_prefix},${3:skip_regexp})$0

@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: Array#include?(val)
 # key: .include?
-# condition: (and ac-rsense-yas-working (string= "Array" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "Array" ac-rsense-yas-expand-class))
 # --
 .include?(${1:val})$0

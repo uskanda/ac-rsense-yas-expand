@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: File.truncate#File.truncate(path,length)
 # key: .File.truncate
-# condition: (and ac-rsense-yas-working (string= "File.truncate" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "File.truncate" ac-rsense-yas-expand-class))
 # --
 .File.truncate(${1:path},${2:length})$0

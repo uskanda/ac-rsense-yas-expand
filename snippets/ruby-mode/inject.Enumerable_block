@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: Enumerable#inject{|result,item}| ...}
 # key: .inject
-# condition: (and ac-rsense-yas-working (string= "Enumerable" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "Enumerable" ac-rsense-yas-expand-class))
 # --
 .inject(){|${1:result},${2:item}| $3}$0

@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: Enumerable#to_set
 # key: .to_set
-# condition: (and ac-rsense-yas-working (string= "Enumerable" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "Enumerable" ac-rsense-yas-expand-class))
 # --
 .to_set()$0

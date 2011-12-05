@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: Time.rfc2822#Time.rfc2822(date)
 # key: .Time.rfc2822
-# condition: (and ac-rsense-yas-working (string= "Time.rfc2822" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "Time.rfc2822" ac-rsense-yas-expand-class))
 # --
 .Time.rfc2822(${1:date})$0

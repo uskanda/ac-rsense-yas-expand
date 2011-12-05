@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: File.realdirpath#File.realdirpath(pathname,basedir = nil)
 # key: .File.realdirpath
-# condition: (and ac-rsense-yas-working (string= "File.realdirpath" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "File.realdirpath" ac-rsense-yas-expand-class))
 # --
 .File.realdirpath(${1:pathname},${2:basedir})$0

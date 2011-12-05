@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: ARGF.each_byte#ARGF.each_byte{|char}| ...}
 # key: .ARGF.each_byte
-# condition: (and ac-rsense-yas-working (string= "ARGF.each_byte" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "ARGF.each_byte" ac-rsense-yas-expand-class))
 # --
 .ARGF.each_byte(){|${1:char}| $2}$0

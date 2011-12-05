@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: String#encode!(encoding,from_encoding)
 # key: .encode!
-# condition: (and ac-rsense-yas-working (string= "String" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "String" ac-rsense-yas-expand-class))
 # --
 .encode!(${1:encoding},${2:from_encoding})$0

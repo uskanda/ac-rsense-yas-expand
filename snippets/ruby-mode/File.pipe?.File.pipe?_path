@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: File.pipe?#File.pipe?(path)
 # key: .File.pipe?
-# condition: (and ac-rsense-yas-working (string= "File.pipe?" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "File.pipe?" ac-rsense-yas-expand-class))
 # --
 .File.pipe?(${1:path})$0

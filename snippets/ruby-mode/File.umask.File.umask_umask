@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: File.umask#File.umask(umask)
 # key: .File.umask
-# condition: (and ac-rsense-yas-working (string= "File.umask" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "File.umask" ac-rsense-yas-expand-class))
 # --
 .File.umask(${1:umask})$0

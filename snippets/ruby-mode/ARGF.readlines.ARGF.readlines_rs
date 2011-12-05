@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: ARGF.readlines#ARGF.readlines(rs = $/)
 # key: .ARGF.readlines
-# condition: (and ac-rsense-yas-working (string= "ARGF.readlines" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "ARGF.readlines" ac-rsense-yas-expand-class))
 # --
 .ARGF.readlines(${1:rs})$0

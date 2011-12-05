@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: ARGF.read#ARGF.read
 # key: .ARGF.read
-# condition: (and ac-rsense-yas-working (string= "ARGF.read" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "ARGF.read" ac-rsense-yas-expand-class))
 # --
 .ARGF.read()$0

@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: Hash.new#Hash.new
 # key: .Hash.new
-# condition: (and ac-rsense-yas-working (string= "Hash.new" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "Hash.new" ac-rsense-yas-expand-class))
 # --
 .Hash.new()$0

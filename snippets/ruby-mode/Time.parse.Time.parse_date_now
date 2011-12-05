@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: Time.parse#Time.parse(date,now = Time.now)
 # key: .Time.parse
-# condition: (and ac-rsense-yas-working (string= "Time.parse" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "Time.parse" ac-rsense-yas-expand-class))
 # --
 .Time.parse(${1:date},${2:now})$0

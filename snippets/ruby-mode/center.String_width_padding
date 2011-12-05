@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: String#center(width,padding = ' ')
 # key: .center
-# condition: (and ac-rsense-yas-working (string= "String" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "String" ac-rsense-yas-expand-class))
 # --
 .center(${1:width},${2:padding})$0

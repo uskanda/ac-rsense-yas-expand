@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: File.lchmod#File.lchmod(mode,*filename)
 # key: .File.lchmod
-# condition: (and ac-rsense-yas-working (string= "File.lchmod" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "File.lchmod" ac-rsense-yas-expand-class))
 # --
 .File.lchmod(${1:mode},${2:*filename})$0

@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: File.utime#File.utime(atime,mtime,*filename)
 # key: .File.utime
-# condition: (and ac-rsense-yas-working (string= "File.utime" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "File.utime" ac-rsense-yas-expand-class))
 # --
 .File.utime(${1:atime},${2:mtime},${3:*filename})$0

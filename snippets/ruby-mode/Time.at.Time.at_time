@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: Time.at#Time.at(time)
 # key: .Time.at
-# condition: (and ac-rsense-yas-working (string= "Time.at" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "Time.at" ac-rsense-yas-expand-class))
 # --
 .Time.at(${1:time})$0

@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: IO#expect(pattern,timeout = 9999999)
 # key: .expect
-# condition: (and ac-rsense-yas-working (string= "IO" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "IO" ac-rsense-yas-expand-class))
 # --
 .expect(${1:pattern},${2:timeout})$0

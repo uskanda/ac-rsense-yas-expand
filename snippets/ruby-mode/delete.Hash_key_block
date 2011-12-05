@@ -1,6 +1,6 @@
 # contributor: Yusuke Kanda <uskanda@gmail.com> (Extracted from Refe2 - "http://i.loveruby.net/ja/prog/refe.html")
 # name: Hash#delete(key){|key}| ...}
 # key: .delete
-# condition: (and ac-rsense-yas-working (string= "Hash" ac-rsense-yas-class))
+# condition: (and ac-rsense-yas-expand-working (string= "Hash" ac-rsense-yas-expand-class))
 # --
 .delete(${1:key}){|${2:key}| $3}$0
